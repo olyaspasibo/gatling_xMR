@@ -1,0 +1,13 @@
+RUN	LogonSimulation	logonsimulation	1605979445064	 	3.4.1
+USER	Logon to MRS	START	1605979446331
+REQUEST		Open Main Page	1605979446358	1605979446861	OK	 
+REQUEST		Open Main Page Redirect 1	1605979446889	1605979447336	OK	 
+REQUEST		Open Main Page Redirect 2	1605979447359	1605979447464	OK	 
+REQUEST		Open Main Page Redirect 3	1605979447466	1605979447616	OK	 
+REQUEST		Open Main Page Redirect 4	1605979447620	1605979447878	OK	 
+REQUEST		Login	1605979447895	1605979447984	OK	 
+REQUEST		Login Redirect 1	1605979447986	1605979448072	OK	 
+REQUEST		Login Redirect 2	1605979448073	1605979448453	OK	 
+REQUEST		Login Redirect 3	1605979448454	1605979448612	OK	 
+REQUEST		Login Redirect 4	1605979448614	1605979448782	KO	jsonPath($..token).find.exists preparation crashed: Jackson failed to parse into a valid AST: c.f.j.c.JsonParseException: Unexpected character ('<' (code 60)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')  at [Source: (SequenceInputStream); line: 1, column: 2]
+USER	Logon to MRS	END	1605979448840

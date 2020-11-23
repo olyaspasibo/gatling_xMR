@@ -1,0 +1,15 @@
+RUN	Nes	nes	1605977126244	 	3.4.1
+USER	Nes	START	1605977128799
+REQUEST		request_0:POST_https://xmr-dev-env01.auth.eu-west-2.amazoncognito.com/login?client_id=5qk4k9a8dq1krnkrvije6scth2&redirect_uri=https_3A_2F_2Fqa1-lsegxmr.com_2Foauth2_2Fidpresponse&response_type=code&scope=openid&state=_2B4TDVwqtujDGziIb4sa0hEZguFI82cRtvU7pxvMgzHHvvGMiY77PDmwW98P_2BHRESddhtLaxUZqdvF_2FE1vlnY_2FbuoeqpPaNgmM_2BlETwjilXeIAqN43WyBowMZJUlaojT6ITweH1wa8PSRI4oJUxB006CbxFsRis41fB6Z_2FhHyzXf1H9U_2BCVeTc6yCJfuDPsLe7iWRDSOwLWuD7Lc_3D	1605977128830	1605977129759	OK	 
+REQUEST		request_0:POST_https://xmr-dev-env01.auth.eu-west-2.amazoncognito.com/login?client_id=5qk4k9a8dq1krnkrvije6scth2&redirect_uri=https_3A_2F_2Fqa1-lsegxmr.com_2Foauth2_2Fidpresponse&response_type=code&scope=openid&state=_2B4TDVwqtujDGziIb4sa0hEZguFI82cRtvU7pxvMgzHHvvGMiY77PDmwW98P_2BHRESddhtLaxUZqdvF_2FE1vlnY_2FbuoeqpPaNgmM_2BlETwjilXeIAqN43WyBowMZJUlaojT6ITweH1wa8PSRI4oJUxB006CbxFsRis41fB6Z_2FhHyzXf1H9U_2BCVeTc6yCJfuDPsLe7iWRDSOwLWuD7Lc_3D Redirect 1	1605977129775	1605977130535	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 400
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json	1605977131551	1605977132092	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 1	1605977132092	1605977132370	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 2	1605977132373	1605977132452	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 3	1605977132453	1605977132590	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 4	1605977132591	1605977132890	KO	Check validator resolution crashed: Resource /nes/0001_response.json not found
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200	1605977140900	1605977140984	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 1	1605977140985	1605977141124	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 2	1605977141125	1605977141201	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 3	1605977141202	1605977141922	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 4	1605977141924	1605977142211	KO	Check validator resolution crashed: Resource /nes/0012_response.json not found
+USER	Nes	END	1605977142218

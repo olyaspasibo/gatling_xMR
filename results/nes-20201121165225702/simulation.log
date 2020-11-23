@@ -1,0 +1,15 @@
+RUN	Nes	nes	1605977545702	 	3.4.1
+USER	Nes	START	1605977546995
+REQUEST		request_0:POST_https://xmr-dev-env01.auth.eu-west-2.amazoncognito.com/login?client_id=5qk4k9a8dq1krnkrvije6scth2&redirect_uri=https_3A_2F_2Fqa1-lsegxmr.com_2Foauth2_2Fidpresponse&response_type=code&scope=openid&state=_2B4TDVwqtujDGziIb4sa0hEZguFI82cRtvU7pxvMgzHHvvGMiY77PDmwW98P_2BHRESddhtLaxUZqdvF_2FE1vlnY_2FbuoeqpPaNgmM_2BlETwjilXeIAqN43WyBowMZJUlaojT6ITweH1wa8PSRI4oJUxB006CbxFsRis41fB6Z_2FhHyzXf1H9U_2BCVeTc6yCJfuDPsLe7iWRDSOwLWuD7Lc_3D	1605977547039	1605977547535	OK	 
+REQUEST		request_0:POST_https://xmr-dev-env01.auth.eu-west-2.amazoncognito.com/login?client_id=5qk4k9a8dq1krnkrvije6scth2&redirect_uri=https_3A_2F_2Fqa1-lsegxmr.com_2Foauth2_2Fidpresponse&response_type=code&scope=openid&state=_2B4TDVwqtujDGziIb4sa0hEZguFI82cRtvU7pxvMgzHHvvGMiY77PDmwW98P_2BHRESddhtLaxUZqdvF_2FE1vlnY_2FbuoeqpPaNgmM_2BlETwjilXeIAqN43WyBowMZJUlaojT6ITweH1wa8PSRI4oJUxB006CbxFsRis41fB6Z_2FhHyzXf1H9U_2BCVeTc6yCJfuDPsLe7iWRDSOwLWuD7Lc_3D Redirect 1	1605977547550	1605977547762	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 400
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json	1605977548778	1605977549140	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 1	1605977549141	1605977549286	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 2	1605977549288	1605977549372	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 3	1605977549372	1605977549543	OK	 
+REQUEST		request_1:GET_https://qa1-lsegxmr.com/mrs/meta_info/version.json Redirect 4	1605977549545	1605977549730	KO	bodyBytes.find.is([B@15bb764), found [B@48127578
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200	1605977557743	1605977557836	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 1	1605977557837	1605977558023	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 2	1605977558024	1605977558113	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 3	1605977558114	1605977558507	OK	 
+REQUEST		request_12:GET_https://qa1-lsegxmr.com/eventbus/info?t=1605976935200 Redirect 4	1605977558509	1605977558673	KO	bodyBytes.find.is([B@7de3cfe3), found [B@2601c7ee
+USER	Nes	END	1605977558678

@@ -1,0 +1,5 @@
+RUN	LogonToMrs	logontomrs	1605879878649	 	3.4.1
+USER	Logon to MRS	START	1605879880767
+REQUEST		Open Main Page	1605879880802	1605879881122	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 403
+ERROR	Login: Failed to build request: No attribute named 'encodelogonstring' is defined 	1605879881143
+USER	Logon to MRS	END	1605879881151
